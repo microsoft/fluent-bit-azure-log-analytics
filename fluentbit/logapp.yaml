@@ -10,7 +10,7 @@ spec:
   containers:
   - name: app
     imagePullPolicy: Always
-    image: ghcr.io/retaildevcrews/logapp:latest
+    image: ghcr.io/bartr/logapp:latest
     args:
     - --iterations
     - "5"
